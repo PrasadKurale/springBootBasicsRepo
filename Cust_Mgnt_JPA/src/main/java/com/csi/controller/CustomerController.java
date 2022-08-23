@@ -59,4 +59,10 @@ public class CustomerController {
     public String sayHello() {
         return "WELCOME TO CSI";
     }
+
+    @GetMapping("/service")
+    public String sayService()
+    {
+        return"THIS IS FINTECH";
+    }
 }
